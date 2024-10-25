@@ -23,42 +23,39 @@ function validaFormulario(e) {
   if (
     nombre.value === "" ||
     telefono.value === "" ||
-    mensaje.value === "" ||
-    email.value === ""
+    email.value === "" ||
+    mensaje.value === ""
   ) {
     mostrarError("Todos los campos son obligatorios");
     return;
+  } else {
+    alert('Hemos recibido sus datos, pronto nos pondremos en contacto.')
+    formulario.submit();
   }
-  mensajeEnviado('Hemos recibido su mensaje')
-
-  setTimeout(function() {
-    window.location.reload();
-  }, 2000); 
 }
 
-function mostrarError (mensaje){
+function mostrarError(mensaje) {
   const alerta = document.createElement('p');
-  alerta.textContent = mensaje
-  alerta.style.background= "red"
-  alerta.style.textAlign = "center"
-  alerta.style.color = "white"
-  alerta.style.fontSize = "3rem"
+  alerta.textContent = mensaje;
+  alerta.style.background = "red";
+  alerta.style.textAlign = "center";
+  alerta.style.color = "white";
+  alerta.style.fontSize = "3rem";
   formulario.appendChild(alerta);
   setTimeout(() => {
     alerta.remove();
-  },5000,);
+  }, 5000);
 }
 
-
-function mensajeEnviado (mensaje){
+function mensajeEnviado(mensaje) {
   const alerta1 = document.createElement('p');
-  alerta1.textContent = mensaje
-  alerta1.style.background= "green"
-  alerta1.style.textAlign = "center"
-  alerta1.style.color = "white"
-  alerta1.style.fontSize = "3rem"
+  alerta1.textContent = mensaje;
+  alerta1.style.background = "green";
+  alerta1.style.textAlign = "center";
+  alerta1.style.color = "white";
+  alerta1.style.fontSize = "3rem";
   formulario.appendChild(alerta1);
   setTimeout(() => {
     alerta1.remove();
-  },5000,);
+  }, 5000);
 }

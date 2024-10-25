@@ -1,11 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="language" content="es" />
+    <meta name="author" content="Andres Lora" />
+    <meta name="audience" content="all" />
+    <meta
+      name="description"
+      content="Descripción breve y precisa del contenido de la página."
+    />
+    <meta
+      name="keywords"
+      content="Palabras clave relevantes separadas por comas"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Título de la Página" />
+    <meta
+      property="og:description"
+      content="Descripción que aparecerá en redes sociales."
+    />
+    <meta property="og:image" content="URL_de_la_imagen" />
+    <meta property="og:url" content="URL_de_la_página" />
+    <meta name="twitter:card" content="summary_large_image" />
     <title>Portafolio</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css" />
+
   </head>
   <body>
     <div class="bg-nav">
@@ -25,37 +46,9 @@
       </button>
       </nav>
       <nav class="navbar" id="navbar">
-        <a href="index.html">Inicio</a>
-        <a href="proyectos.html">Proyectos</a>
-        <a href="sobremi.html">Acerca de mi</a>
-        <a href="contacto.html">Contacto</a>
+        <a href="index.php">Inicio</a>
+        <a href="proyectos.php">Proyectos</a>
+        <a href="sobremi.php">Acerca de mi</a>
+        <a href="contacto.php">Contacto</a>
       </nav>
     </div>
- <main class="proyectos">
-    <div class="proyect">
-        <div class="productos">
-            <h2>Fc Barcelona</h2>
-            <div class="imga"><img src="Img/inicio_11zon.webp" alt="Imagen inicio de pagina"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab error, quaerat libero eligendi, quia quidem provident vitae delectus natus cupiditate maxime vero voluptatibus assumenda perferendis, quae est perspiciatis ipsum. Fuga.</p>
-        </div>
-        <div class="productos">
-            <h2>Proyectos</h2>
-            <div class="imga"><img src="Img/produvtos_11zon.webp" alt="imagen de apartado de productos de la pagina"></div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore molestiae repudiandae natus assumenda aliquid officia id quod incidunt rem aspernatur quo qui exercitationem iste placeat eaque cum, sapiente vitae amet.</p>
-        </div>
-        <div class="productos">
-            <h2>Juegos</h2>
-            <div class="imga"><img src="Img/juegos_11zon.webp" alt="imagen de aparatado de juego de la pagina"></div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium doloremque necessitatibus vel exercitationem, doloribus quis est illo id maxime laborum ducimus laudantium corrupti eaque modi optio magnam odit itaque nam!</p>
-        </div>
-    </div>
- </main>
-    <footer class="footer">
-      <div class="redes">
-        <a href="#"></a>
-      </div>
-      <p>Todos los derechos resevados Andres Lora &copy; 2024</p>
-    </footer>
-    <script src="./javascript/java.js"></script>
-  </body>
-</html>
